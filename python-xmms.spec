@@ -31,7 +31,7 @@ systemach uniksowych.
 
 PyXMMS to dowi±zania Pythona do wszystkich funkcji z serii
 xmms_remote_* dostêpnych poprzez bibliotekê libxmms, jak równie¿
-kilku przydatych funkcji wysokiego poziomu.
+kilku przydatnych funkcji wysokiego poziomu.
 
 %prep
 %setup -q -n pyxmms-%{version}
