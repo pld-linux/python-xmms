@@ -11,7 +11,6 @@ Source0:	http://people.via.ecp.fr/~flo/2002/PyXMMS/dist/pyxmms-%{version}.tar.bz
 # Source0-md5:	841cf6ae30d219f5509063f7008f0109
 URL:		http://people.via.ecp.fr/~flo/
 BuildRequires:	pydoc
-BuildRequires:	rpm-pythonprov
 BuildRequires:	xmms-devel
 %pyrequires_eq	python-libs
 Requires:	xmms
