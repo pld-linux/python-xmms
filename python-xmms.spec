@@ -1,15 +1,14 @@
-
 %define		module	xmms
 
 Summary:	Python bindings for XMMS
 Summary(pl):	Dowi±zania do XMMS dla Pythona
 Name:		python-%{module}
-Version:	2.02
+Version:	2.03
 Release:	1
 License:	GPL
 Group:		Development/Languages/Python
-Source0:	http://people.via.ecp.fr/~flo/2002/PyXMMS/dist/pyxmms-%{version}.tar.gz
-# Source0-md5:	d3ca937e3763c6432fd71c348cd60598
+Source0:	http://people.via.ecp.fr/~flo/2002/PyXMMS/dist/pyxmms-%{version}.tar.bz2
+# Source0-md5:	a8169e769f5329231fd1019652e8618d
 URL:		http://people.via.ecp.fr/~flo/
 BuildRequires:	pydoc
 BuildRequires:	rpm-pythonprov
