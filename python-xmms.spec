@@ -9,9 +9,9 @@ Version:	2.02
 Release:	1
 License:	GPL
 Group:		Development/Languages/Python
-Source0:	http://www.via.ecp.fr/~flo/2002/PyXMMS/dist/pyxmms-%{version}.tar.gz
+Source0:	http://people.via.ecp.fr/~flo/2002/PyXMMS/dist/pyxmms-%{version}.tar.gz
 # Source0-md5:	d3ca937e3763c6432fd71c348cd60598
-URL:		http://www.via.ecp.fr/~flo/
+URL:		http://people.via.ecp.fr/~flo/
 BuildRequires:	pydoc
 BuildRequires:	rpm-pythonprov
 BuildRequires:	xmms-devel
