@@ -1,6 +1,6 @@
 %include	/usr/lib/rpm/macros.python
 
-%define		module xmms
+%define		module	xmms
 
 Summary:	Python bindings for XMMS
 Summary(pl):	Dowi±zania do XMMS dla Pythona
