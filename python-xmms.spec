@@ -13,6 +13,7 @@ URL:		http://people.via.ecp.fr/~flo/
 BuildRequires:	pydoc
 BuildRequires:	rpm-pythonprov
 BuildRequires:	xmms-devel
+%pyrequires_eq	python-libs
 Requires:	xmms
 Obsoletes:	python-pyxmms
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
