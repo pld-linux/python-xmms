@@ -12,6 +12,7 @@ Group:		Development/Languages/Python
 Source0:	http://www.via.ecp.fr/~flo/2002/PyXMMS/dist/pyxmms-%{version}.tar.gz
 # Source0-md5:	d3ca937e3763c6432fd71c348cd60598
 URL:		http://www.via.ecp.fr/~flo/
+BuildRequires:	pydoc
 BuildRequires:	rpm-pythonprov
 BuildRequires:	xmms-devel
 Requires:	xmms
@@ -47,6 +48,7 @@ EOF
 
 %build
 python setup.py build
+python build-documentation.py
 
 %install
 rm -rf $RPM_BUILD_ROOT
@@ -60,7 +62,7 @@ rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
-%doc AUTHORS ChangeLog README NEWS doc/xmms.html
+%doc AUTHORS ChangeLog README NEWS doc/*.html
 %dir %{py_sitedir}/%{module}
 %attr(755,root,root) %{py_sitedir}/%{module}/*.so
 %{py_sitedir}/%{module}/*.py[co]
