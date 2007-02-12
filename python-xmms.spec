@@ -1,7 +1,7 @@
 %define		module	xmms
 
 Summary:	Python bindings for XMMS
-Summary(pl):	Dowi±zania do XMMS dla Pythona
+Summary(pl.UTF-8):   DowiÄ…zania do XMMS dla Pythona
 Name:		python-%{module}
 Version:	2.04
 Release:	0.1
@@ -25,12 +25,12 @@ PyXMMS is a set of Python bindings for all the xmms_remote_* functions
 accessible through the libxmms library (which comes with XMMS), plus a
 few useful higher-level functions.
 
-%description -l pl
-Jest to interfejs Pythona do XMMS-a - odtwarzacza multimediów na
+%description -l pl.UTF-8
+Jest to interfejs Pythona do XMMS-a - odtwarzacza multimediÃ³w na
 systemach uniksowych.
 
-PyXMMS to dowi±zania Pythona do wszystkich funkcji z serii
-xmms_remote_* dostêpnych poprzez bibliotekê libxmms, jak równie¿
+PyXMMS to dowiÄ…zania Pythona do wszystkich funkcji z serii
+xmms_remote_* dostÄ™pnych poprzez bibliotekÄ™ libxmms, jak rÃ³wnieÅ¼
 kilku przydatnych funkcji wysokiego poziomu.
 
 %prep
