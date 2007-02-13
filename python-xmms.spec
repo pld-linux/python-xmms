@@ -1,7 +1,7 @@
 %define		module	xmms
 
 Summary:	Python bindings for XMMS
-Summary(pl.UTF-8):   Dowiązania do XMMS dla Pythona
+Summary(pl.UTF-8):	Dowiązania do XMMS dla Pythona
 Name:		python-%{module}
 Version:	2.04
 Release:	0.1
