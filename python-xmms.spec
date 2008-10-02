@@ -3,12 +3,12 @@
 Summary:	Python bindings for XMMS
 Summary(pl.UTF-8):	Dowiązania do XMMS dla Pythona
 Name:		python-%{module}
-Version:	2.04
+Version:	2.07
 Release:	0.1
 License:	GPL
 Group:		Development/Languages/Python
 Source0:	http://people.via.ecp.fr/~flo/2002/PyXMMS/dist/pyxmms-%{version}.tar.bz2
-# Source0-md5:	841cf6ae30d219f5509063f7008f0109
+# Source0-md5:	a2d4ef98242c21d4360ea2e2747112b3
 URL:		http://people.via.ecp.fr/~flo/
 BuildRequires:	pydoc
 BuildRequires:	xmms-devel
