@@ -45,15 +45,13 @@ prefix=/usr
 EOF
 
 %build
-python setup.py build
+%py_build
 python build-documentation.py
 
 %install
 rm -rf $RPM_BUILD_ROOT
 
-python setup.py install \
-	--root=$RPM_BUILD_ROOT \
-	--optimize=2
+%py_install
 
 %clean
 rm -rf $RPM_BUILD_ROOT
