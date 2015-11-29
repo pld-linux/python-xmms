@@ -10,6 +10,7 @@ Group:		Development/Languages/Python
 Source0:	http://people.via.ecp.fr/~flo/2002/PyXMMS/dist/pyxmms-%{version}.tar.bz2
 # Source0-md5:	a2d4ef98242c21d4360ea2e2747112b3
 URL:		http://people.via.ecp.fr/~flo/
+BuildRequires:	rpmbuild(macros) >= 1.710
 BuildRequires:	pydoc
 BuildRequires:	xmms-devel
 %pyrequires_eq	python-libs
